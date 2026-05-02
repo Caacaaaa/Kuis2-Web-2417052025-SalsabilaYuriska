@@ -4,7 +4,7 @@ $nama_toko = "Warung Digital Unila";
 
 function hitungTotal($harga) {
     global $nama_toko;
-    echo "<h1>Selamat Datang di $nama_toko</h1><br>";
+    echo "<h2>Selamat Datang di $nama_toko</h2><br>";
 
     static $jumlah_transaksi = 0;
     $jumlah_transaksi++;
