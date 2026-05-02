@@ -9,10 +9,9 @@ function hitungTotal($harga) {
     static $jumlah_transaksi = 0;
     $jumlah_transaksi++;
 
+    echo "Transaksi ke-$jumlah_transaksi <br>";
     echo "Harga Barang : Rp $harga <br>";
-    echo "Transaksi ke : $jumlah_transaksi <br>";
     echo "<hr>";
-    
 }
 
 hitungTotal(15000);
